@@ -18,7 +18,7 @@ class Groups
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=64)
+     * @ORM\Column(type="string", length=64, unique=true)
      */
     private $name;
 
@@ -26,7 +26,7 @@ class Groups
      * @ORM\ManyToMany(targetEntity="Users", mappedBy="username")
      */
     private $users;
-    
+
     public function __construct()
     {
         $this->users = new ArrayCollection();
