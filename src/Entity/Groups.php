@@ -23,7 +23,7 @@ class Groups
     private $name;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Users", mappedBy="username")
+     * @ORM\ManyToMany(targetEntity="Users", inversedBy="groups")
      */
     private $users;
 
@@ -47,5 +47,29 @@ class Groups
         $this->name = $name;
 
         return $this;
+    }
+
+    public function addUser(Users $user): self
+    {
+        $this->users[] = $user;
+
+        return $this;
+    }
+
+    public function removeUser(Users $user): bool
+    {
+        return $this->users->removeElement($user);
+    }
+
+    //returns true if user already in group
+    public function checkUser(Users $user): bool
+    {
+        return $this->users->contains($user);
+    }
+
+    //returns true if empty
+    public function noUsers(): bool
+    {
+        return $this->users->isEmpty();
     }
 }
