@@ -1,7 +1,7 @@
 # user-management-system
 Internations Coding Challenge
 
-Kostas asked me to note that I have no experience prior to last Thursday 28.03 in PHP or Symfony.
+**Kostas asked me to note that I have no experience prior to last Thursday 28.03 in PHP or Symfony.**
 
 Required Methods:  
 addUser -> POST /api/user  {"name":name, "username":username}  
@@ -14,3 +14,5 @@ deleteGroup -> DELETE /api/group/{id}
 Additional Methods:  
 getUsers -> GET /api/user  
 getGroups -> GET /api/groups  
+
+The diagrams are located in the diagram folder.
