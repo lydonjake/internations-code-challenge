@@ -15,5 +15,6 @@ Additional Methods:
   * getUsers -> GET /api/user  
   * getGroups -> GET /api/groups  
 
-![alt text](user-management-system/diagrams/Domain_Model.png)
-![alt text](user-management-system/diagrams/ERD.png)
+![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/Domain_Model.jpg)
+  
+![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/ERD.jpg)
