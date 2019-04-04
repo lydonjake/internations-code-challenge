@@ -15,4 +15,4 @@ Additional Methods:
 getUsers -> GET /api/user  
 getGroups -> GET /api/groups  
 
-The diagrams are located in the diagram folder.
+The domain model and database model are located in the diagram folder.
