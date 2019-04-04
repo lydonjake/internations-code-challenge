@@ -17,4 +17,4 @@ Additional Methods:
 
 ![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/Domain_Model.jpeg)
   
-![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/ERD.jpeg)
+![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/Database_Model_ERD.jpeg)
