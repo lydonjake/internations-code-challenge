@@ -13,7 +13,7 @@ Required Methods:
   
 Additional Methods:  
   * getUsers -> GET /api/user  
-  * getGroups -> GET /api/groups  
+  * getGroups -> GET /api/group  
 
 ![alt text](https://github.com/lydonjake/user-management-system/blob/master/diagrams/Domain_Model.jpeg)
   
